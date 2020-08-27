@@ -8,7 +8,6 @@ const useForm = (initialState = {}) => {
   }
 
   const handleInputChange = ({ target }) => {
-    // console.log("target",target)
     setFormState({
       ...formState,
       [target.name]: target.value,
